@@ -1,5 +1,6 @@
 SELECT DISTINCT
-    t1.type || '|' || count(t1.primary_title)
+    t1.type,
+    count(t1.primary_title)
 FROM
     titles t1,
     titles t2
