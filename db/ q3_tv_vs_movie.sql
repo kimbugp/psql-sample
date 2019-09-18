@@ -8,4 +8,5 @@ WHERE
     t1.type = t2.type
 GROUP BY
     t1.type,
-    t1.primary_title
+    t1.primary_title;
+

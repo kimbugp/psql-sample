@@ -3,4 +3,4 @@ SELECT DISTINCT
 FROM
     titles
 ORDER BY
-    TYPE
+    TYPE;
